@@ -119,7 +119,8 @@ docker build -t task-service:1.0 .
 Run the container
 
 ```bash
-docker run -d -p 8090:8080 --name task-service-container task-service:1.0```
+docker run -d -p 8090:8080 --name task-service-container task-service:1.0
+```
 
 verify
 curl http://localhost:8090/tasks
