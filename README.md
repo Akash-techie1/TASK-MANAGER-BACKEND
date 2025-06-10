@@ -105,3 +105,22 @@ Recommended Security Enhancements
 Running Tests
 
 mvn test
+
+
+## 🐳 Docker Support
+
+### Prerequisites
+- Docker installed ([Get Docker](https://docs.docker.com/get-docker/))
+
+### Build the Image
+```bash
+docker build -t task-service:1.0 .
+```
+Run the container
+```docker run -d -p 8090:8080 --name task-service-container task-service:1.0```
+
+verify
+curl http://localhost:8090/tasks
+screenshot:<img width="1440" alt="doc ooutput" src="https://github.com/user-attachments/assets/91e7defd-7846-401a-9504-29c0eff5a97f" />
+
+
