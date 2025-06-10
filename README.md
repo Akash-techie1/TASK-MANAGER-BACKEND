@@ -102,19 +102,6 @@ Recommended Security Enhancements
 5. Implement more robust command validation
 
 
-Project Structure
-src/
-├── main/
-│   ├── java/org/akash/task/
-│   │   ├── controller/    # API endpoints
-│   │   ├── model/         # Data models
-│   │   ├── repository/    # MongoDB interfaces
-│   │   ├── service/       # Business logic
-│   │   └── TaskApplication.java
-│   └── resources/         # Config files
-└── test/                  # Unit tests
-
-
 Running Tests
 
 mvn test
